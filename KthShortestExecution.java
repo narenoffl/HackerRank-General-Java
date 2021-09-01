@@ -1,3 +1,12 @@
+// Wipro Elite Drive Problem 2 - Sept 1
+
+// A company wishes to modify the technique by which tasks in the processing queue are executed. 
+// There are N processes with unique IDs from 0 to N-1. Each of these tasks has its own execution time. 
+// The company wishes to implement a new algorithm for processing tasks. For this purpose they have identified a value K. By the new algorithm, 
+// the processor will first process the task that has the Kth shortest execution time.
+
+// Write an algorithm to find the Kth shortest execution time.
+
 import java.util.Scanner;
 public class KthShortestExecution {
 	public static void main(String[] args) {
